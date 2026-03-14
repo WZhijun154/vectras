@@ -14,6 +14,7 @@ const sidebars: SidebarsConfig = {
       items: ['skills/technical', 'skills/languages'],
     },
     'projects',
+    'dating',
     'contact',
   ],
 };
