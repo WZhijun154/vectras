@@ -68,7 +68,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="Zhijun Wang's self-introduction website">
+      description="Vectras's personal website">
       <HomepageHeader />
       <main>
         <HomepageLinks />

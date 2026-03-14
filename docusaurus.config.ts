@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Zhijun Wang',
+  title: 'Vectras',
   tagline: 'Self Introduction',
   favicon: 'img/favicon.ico',
 
@@ -54,7 +54,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Zhijun Wang',
+      title: 'Vectras',
       items: [
         {
           type: 'docSidebar',
@@ -95,7 +95,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Zhijun Wang. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Vectras. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

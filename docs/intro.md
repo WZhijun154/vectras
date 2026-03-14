@@ -5,7 +5,7 @@ slug: /intro
 
 # About Me
 
-Welcome! I'm **Zhijun Wang**.
+Welcome! I'm **Vectras**.
 
 This site serves as my self-introduction, where you can learn about my background, skills, and projects.
 
