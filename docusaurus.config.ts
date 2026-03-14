@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Vectras',
-  tagline: '',
+  tagline: 'Deep Learning Engineer | Autonomous Driving | VLM Training',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -59,7 +59,31 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Vectras - Deep Learning Engineer specializing in VLM training and autonomous driving. Portfolio, skills, and experience.',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: 'Vectras, Deep Learning, VLM, autonomous driving, engineer, portfolio, SenseTime, Horizon Robotics',
+      },
+    },
+  ],
+
   themeConfig: {
+    metadata: [
+      {name: 'robots', content: 'index, follow'},
+      {property: 'og:title', content: 'Vectras'},
+      {property: 'og:description', content: 'Deep Learning Engineer | Autonomous Driving | VLM Training'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:url', content: 'https://wzhijun154.github.io/vectras/'},
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },

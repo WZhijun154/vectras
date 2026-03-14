@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wzhijun154.github.io/vectras/sitemap.xml
