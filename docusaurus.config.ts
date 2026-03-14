@@ -12,10 +12,10 @@ const config: Config = {
   },
 
   url: 'https://wzhijun154.github.io',
-  baseUrl: '/self-introduction/',
+  baseUrl: '/vectras/',
 
   organizationName: 'WZhijun154',
-  projectName: 'self-introduction',
+  projectName: 'vectras',
 
   onBrokenLinks: 'throw',
 
@@ -39,7 +39,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/WZhijun154/self-introduction/tree/main/',
+            'https://github.com/WZhijun154/vectras/tree/main/',
         },
         blog: false,
         theme: {
