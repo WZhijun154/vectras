@@ -7,7 +7,14 @@ interface Photo {
 }
 
 const defaultPhotos: Photo[] = [
-  {src: '/img/photo_1.jpeg', alt: 'Portrait'},
+  {src: '/img/photo_1.jpeg', alt: 'Portrait 1'},
+  {src: '/img/photo_2.jpeg', alt: 'Portrait 2'},
+  {src: '/img/photo_3.jpeg', alt: 'Portrait 3'},
+  {src: '/img/photo_4.jpeg', alt: 'Portrait 4'},
+  {src: '/img/photo_5.jpeg', alt: 'Portrait 5'},
+  {src: '/img/photo_6.jpeg', alt: 'Portrait 6'},
+  {src: '/img/photo_7.jpeg', alt: 'Portrait 7'},
+  {src: '/img/photo_8.jpeg', alt: 'Portrait 8'},
 ];
 
 interface PhotoGalleryProps {
