@@ -349,5 +349,8 @@
   },
   "homepage.description": {
     "message": "Vectras的个人网站"
+  },
+  "photoGallery.clickToEnlarge": {
+    "message": "点击放大"
   }
 }

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Translate from '@docusaurus/Translate';
 import styles from './styles.module.css';
 
 interface Photo {
@@ -47,7 +48,9 @@ export default function PhotoGallery({photos: photoProp}: PhotoGalleryProps): Re
               className={styles.featuredImage}
             />
             <div className={styles.featuredOverlay}>
-              <span className={styles.hint}>Click to enlarge</span>
+              <span className={styles.hint}>
+                <Translate id="photoGallery.clickToEnlarge">Click to enlarge</Translate>
+              </span>
             </div>
           </button>
           {photos.length > 1 && (
