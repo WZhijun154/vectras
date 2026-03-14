@@ -11,10 +11,10 @@ slug: /intro
 
 ## 概览
 
-- **教育**: [中南大学](background/education)工学学士和[大阪大学](background/education)工学硕士，均为自动化专业
-- **经验**: 曾任地平线机器人规控工程师，现为[商汤科技](background/experience)深度学习工程师
-- **技能**: Python、C++、PyTorch、分布式训练、自动驾驶 — [查看完整技能图](skills/technical)
-- **语言**: 中文（母语）、日语（流利）、英语（工作水平）— [详情](skills/languages)
+- **教育**: [中南大学](./background/education)工学学士和[大阪大学](./background/education)工学硕士，均为自动化专业
+- **经验**: 曾任地平线机器人规控工程师，现为[商汤科技](./background/experience)深度学习工程师
+- **技能**: Python、C++、PyTorch、分布式训练、自动驾驶 — [查看完整技能图](./skills/technical)
+- **语言**: 中文（母语）、日语（流利）、英语（工作水平）— [详情](./skills/languages)
 
 ## 我的工作
 

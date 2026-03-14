@@ -11,10 +11,10 @@ Born on August 19, 1999, I'm a **Leo** and an **ISFJ** personality type — deta
 
 ## Quick Overview
 
-- **Education**: B.Eng. from [Central South University](background/education) and M.Eng. from [Osaka University](background/education), both in Automation
-- **Experience**: Former PnC Engineer at Horizon Robotics, currently a DL Engineer at [SenseTime](background/experience)
-- **Skills**: Python, C++, PyTorch, distributed training, autonomous driving — [see full map](skills/technical)
-- **Languages**: Chinese (Native), Japanese (Fluent), English (Professional) — [details](skills/languages)
+- **Education**: B.Eng. from [Central South University](./background/education) and M.Eng. from [Osaka University](./background/education), both in Automation
+- **Experience**: Former PnC Engineer at Horizon Robotics, currently a DL Engineer at [SenseTime](./background/experience)
+- **Skills**: Python, C++, PyTorch, distributed training, autonomous driving — [see full map](./skills/technical)
+- **Languages**: Chinese (Native), Japanese (Fluent), English (Professional) — [details](./skills/languages)
 
 ## What I Do
 
