@@ -212,34 +212,66 @@
 @media screen and (max-width: 768px) {
   .hero {
     min-height: 80vh;
+    padding: 0 1rem;
   }
 
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .ctaButton {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.95rem;
   }
 
   .hero::before {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
   .hero::after {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
 
   .decoRing {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .decoLine {
+    width: 120px;
+  }
+
+  .links {
+    padding: 3rem 0;
   }
 
   .cardGrid {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .card {
     width: 100%;
     max-width: 320px;
+    padding: 1.75rem 1.5rem;
+  }
+
+  .cardIcon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .card {
+    max-width: 100%;
   }
 }

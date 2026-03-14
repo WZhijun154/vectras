@@ -1,8 +1,17 @@
 .container {
   width: 100%;
   margin: 1.5rem 0;
-  padding: 1rem;
+  padding: 0.75rem 0.5rem;
   border: 1px solid var(--landing-card-border);
   border-radius: 12px;
   background: var(--landing-card-bg);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+  }
 }
