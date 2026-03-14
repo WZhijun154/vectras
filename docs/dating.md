@@ -42,7 +42,7 @@ Yes, this section exists. I'm looking for a partner!
 - **Age**: 20 – 26
 - **Personality**: Simple, genuine, and wise
 - **Romantic history**: Simple experience is fine
-- **Income**: 20w+ RMB annually (financial independence matters)
+- **Income**: 10w+ RMB annually (financial independence matters)
 - **Location**: Open to any country — love knows no borders
 - Shared values matter more than shared hobbies — but bonus points if you enjoy tech, food, or travel
 - Someone who has their own passions and goals
