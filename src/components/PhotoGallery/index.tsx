@@ -25,32 +25,58 @@ export default function PhotoGallery({photos = defaultPhotos}: PhotoGalleryProps
   const [activeIndex, setActiveIndex] = useState(0);
   const [lightbox, setLightbox] = useState(false);
 
+  const goPrev = () => setActiveIndex((activeIndex - 1 + photos.length) % photos.length);
+  const goNext = () => setActiveIndex((activeIndex + 1) % photos.length);
+
   return (
     <>
-      <div className={styles.gallery}>
-        {photos.map((photo, i) => (
+      <div className={styles.wrapper}>
+        {/* Main featured image */}
+        <div className={styles.featured}>
           <button
-            key={i}
-            className={`${styles.card} ${i === activeIndex ? styles.active : ''}`}
-            onClick={() => {
-              setActiveIndex(i);
-              setLightbox(true);
-            }}
+            className={styles.featuredBtn}
+            onClick={() => setLightbox(true)}
             type="button"
           >
             <img
-              src={photo.src}
-              alt={photo.alt}
-              className={styles.image}
-              loading="lazy"
+              src={photos[activeIndex].src}
+              alt={photos[activeIndex].alt}
+              className={styles.featuredImage}
             />
-            <div className={styles.overlay}>
+            <div className={styles.featuredOverlay}>
               <span className={styles.hint}>Click to enlarge</span>
             </div>
           </button>
-        ))}
+          {photos.length > 1 && (
+            <>
+              <button className={`${styles.arrow} ${styles.arrowLeft}`} onClick={goPrev} type="button">
+                &lsaquo;
+              </button>
+              <button className={`${styles.arrow} ${styles.arrowRight}`} onClick={goNext} type="button">
+                &rsaquo;
+              </button>
+            </>
+          )}
+        </div>
+
+        {/* Thumbnail strip */}
+        {photos.length > 1 && (
+          <div className={styles.thumbStrip}>
+            {photos.map((photo, i) => (
+              <button
+                key={i}
+                className={`${styles.thumb} ${i === activeIndex ? styles.thumbActive : ''}`}
+                onClick={() => setActiveIndex(i)}
+                type="button"
+              >
+                <img src={photo.src} alt={photo.alt} className={styles.thumbImage} loading="lazy" />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
+      {/* Lightbox */}
       {lightbox && (
         <div className={styles.lightbox} onClick={() => setLightbox(false)}>
           <button className={styles.close} onClick={() => setLightbox(false)} type="button">
@@ -63,24 +89,10 @@ export default function PhotoGallery({photos = defaultPhotos}: PhotoGalleryProps
             onClick={(e) => e.stopPropagation()}
           />
           {photos.length > 1 && (
-            <div className={styles.nav} onClick={(e) => e.stopPropagation()}>
-              <button
-                className={styles.navBtn}
-                type="button"
-                onClick={() => setActiveIndex((activeIndex - 1 + photos.length) % photos.length)}
-              >
-                &lsaquo;
-              </button>
-              <span className={styles.counter}>
-                {activeIndex + 1} / {photos.length}
-              </span>
-              <button
-                className={styles.navBtn}
-                type="button"
-                onClick={() => setActiveIndex((activeIndex + 1) % photos.length)}
-              >
-                &rsaquo;
-              </button>
+            <div className={styles.lightboxNav} onClick={(e) => e.stopPropagation()}>
+              <button className={styles.navBtn} type="button" onClick={goPrev}>&lsaquo;</button>
+              <span className={styles.counter}>{activeIndex + 1} / {photos.length}</span>
+              <button className={styles.navBtn} type="button" onClick={goNext}>&rsaquo;</button>
             </div>
           )}
         </div>
