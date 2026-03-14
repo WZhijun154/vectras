@@ -2,9 +2,15 @@
 sidebar_position: 6
 ---
 
+import PhotoGallery from '@site/src/components/PhotoGallery';
+
 # 找对象
 
 没错，这个板块是认真的。我在找另一半！
+
+## 照片
+
+<PhotoGallery />
 
 ## 关于我
 
@@ -50,4 +56,10 @@ sidebar_position: 6
 
 ## 联系我
 
-如果你觉得还不错，欢迎通过 [GitHub](https://github.com/WZhijun154) 或 [邮箱](mailto:wangzhijun154@gmail.com) 联系我。一起喝杯咖啡吧（线上线下都行）！
+如果你觉得还不错，欢迎联系我：
+
+- **微信**: 扫描[联系方式页面](./contact)的二维码
+- **GitHub**: [WZhijun154](https://github.com/WZhijun154)
+- **邮箱**: [wangzhijun154@gmail.com](mailto:wangzhijun154@gmail.com)
+
+一起喝杯咖啡吧（线上线下都行）！

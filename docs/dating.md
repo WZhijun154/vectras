@@ -2,9 +2,15 @@
 sidebar_position: 6
 ---
 
+import PhotoGallery from '@site/src/components/PhotoGallery';
+
 # Dating
 
 Yes, this section exists. I'm looking for a partner!
+
+## Photos
+
+<PhotoGallery />
 
 ## About Me
 
@@ -50,4 +56,10 @@ Yes, this section exists. I'm looking for a partner!
 
 ## Get in Touch
 
-If any of this resonates, feel free to reach out via [GitHub](https://github.com/WZhijun154) or [email](mailto:wangzhijun154@gmail.com). Let's grab a coffee (virtual or otherwise)!
+If any of this resonates, feel free to reach out:
+
+- **WeChat**: Scan the QR code on my [contact page](./contact)
+- **GitHub**: [WZhijun154](https://github.com/WZhijun154)
+- **Email**: [wangzhijun154@gmail.com](mailto:wangzhijun154@gmail.com)
+
+Let's grab a coffee (virtual or otherwise)!
