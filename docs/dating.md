@@ -31,7 +31,6 @@ Yes, this section exists. I'm looking for a partner!
 
 - A genuine tech geek who gets excited about new frameworks, models, and gadgets
 - Reliable and down-to-earth, I value genuine connection over surface-level charm
-- Enjoy cooking, especially trying to recreate Japanese dishes I fell in love with in Osaka
 - Love learning — whether it's a new programming language or a new spoken language
 - Appreciate quiet evenings at home just as much as exploring a new city
 - Trilingual (Chinese, Japanese, English) — can navigate cultures and conversations across borders
