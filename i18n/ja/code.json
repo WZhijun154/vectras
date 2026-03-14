@@ -1,0 +1,134 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "ページがクラッシュしました。"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "トップに戻る"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリスト"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントのページネーション"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ライト/ダークモードを切り替え（現在は{mode}）"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}への直接リンク"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}に"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{byUser}{atDate}最終更新"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした。"
+  },
+  "theme.NotFound.p2": {
+    "message": "リンク元のサイト管理者に、リンクが壊れていることをお知らせください。"
+  },
+  "theme.admonition.caution": {
+    "message": "注意"
+  },
+  "theme.admonition.danger": {
+    "message": "危険"
+  },
+  "theme.admonition.info": {
+    "message": "情報"
+  },
+  "theme.admonition.note": {
+    "message": "備考"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント"
+  },
+  "theme.admonition.warning": {
+    "message": "警告"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "コードをクリップボードにコピー"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを閉じる"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを閉じる"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを開く"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを開く"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントサイドバー"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの目次"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "言語を選択"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← メインメニューに戻る"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツにスキップ"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "再試行"
+  },
+  "homepage.learnMore": {
+    "message": "もっと知る"
+  },
+  "homepage.github.desc": {
+    "message": "プロジェクトとコントリビューションをご覧ください。"
+  },
+  "homepage.aboutMe": {
+    "message": "自己紹介"
+  },
+  "homepage.aboutMe.desc": {
+    "message": "経歴、スキル、経験について。"
+  },
+  "homepage.contact": {
+    "message": "連絡先"
+  },
+  "homepage.contact.desc": {
+    "message": "お気軽にご連絡ください。"
+  },
+  "homepage.title": {
+    "message": "ホーム"
+  },
+  "homepage.description": {
+    "message": "Vectrasの個人サイト"
+  }
+}

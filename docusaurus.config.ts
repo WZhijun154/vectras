@@ -21,13 +21,16 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans', 'en', 'ja'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       'zh-Hans': {
         label: '中文',
+      },
+      ja: {
+        label: '日本語',
       },
     },
   },

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Vectras",
+    "description": "The title in the navbar"
+  },
+  "item.label.About Me": {
+    "message": "自己紹介",
+    "description": "Navbar item with label About Me"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

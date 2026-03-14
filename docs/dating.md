@@ -43,6 +43,7 @@ Yes, this section exists. I'm looking for a partner!
 - **Personality**: Simple, genuine, and wise
 - **Romantic history**: Preferably none — let's figure it out together
 - **Income**: 20w+ RMB annually (financial independence matters)
+- **Location**: Open to any country — love knows no borders
 - Shared values matter more than shared hobbies — but bonus points if you enjoy tech, food, or travel
 - Someone who has their own passions and goals
 - Open to long-distance if there's real chemistry

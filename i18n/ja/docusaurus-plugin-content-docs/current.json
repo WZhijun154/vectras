@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "現在",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Background": {
+    "message": "経歴",
+    "description": "The label for category 'Background' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Skills": {
+    "message": "スキル",
+    "description": "The label for category 'Skills' in sidebar 'mainSidebar'"
+  }
+}
