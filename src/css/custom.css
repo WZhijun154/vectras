@@ -131,6 +131,22 @@
   background-color: #1a1612;
 }
 
+/* Fix: enable scrolling for sidebar menu items */
+.navbar-sidebar__items {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.navbar-sidebar__item {
+  overflow-y: visible;
+}
+
+/* Fix: show locale dropdown expanded in mobile sidebar */
+.navbar-sidebar .menu__list-item--collapsed .menu__list {
+  height: auto;
+  overflow: visible;
+}
+
 .navbar__toggle {
   color: var(--landing-text);
 }
