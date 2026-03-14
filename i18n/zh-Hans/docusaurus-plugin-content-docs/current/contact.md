@@ -10,7 +10,7 @@ sidebar_position: 5
 - **邮箱**: wangzhijun154@gmail.com
 - **微信**: 扫描下方二维码添加
 
-<img src="/img/wechat_qr.jpg" alt="微信二维码" width="300" />
+![微信二维码](/img/wechat_qr.jpg)
 
 ## 联系我
 

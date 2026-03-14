@@ -10,7 +10,7 @@ Feel free to reach out — I'm always happy to connect!
 - **Email**: wangzhijun154@gmail.com
 - **WeChat**: Scan the QR code below
 
-<img src="/img/wechat_qr.jpg" alt="WeChat QR Code" width="300" />
+![WeChat QR Code](/img/wechat_qr.jpg)
 
 ## Let's Connect
 
