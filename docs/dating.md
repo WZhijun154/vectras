@@ -58,7 +58,7 @@ Yes, this section exists. I'm looking for a partner!
 
 If any of this resonates, feel free to reach out:
 
-- **WeChat**: Scan the QR code on my [contact page](./contact)
+- **WeChat**: Scan the QR code on my [contact page](/docs/contact)
 - **GitHub**: [WZhijun154](https://github.com/WZhijun154)
 - **Email**: [wangzhijun154@gmail.com](mailto:wangzhijun154@gmail.com)
 

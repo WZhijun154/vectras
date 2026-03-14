@@ -58,7 +58,7 @@ import PhotoGallery from '@site/src/components/PhotoGallery';
 
 如果你觉得还不错，欢迎联系我：
 
-- **微信**: 扫描[联系方式页面](./contact)的二维码
+- **微信**: 扫描[联系方式页面](/docs/contact)的二维码
 - **GitHub**: [WZhijun154](https://github.com/WZhijun154)
 - **邮箱**: [wangzhijun154@gmail.com](mailto:wangzhijun154@gmail.com)
 
