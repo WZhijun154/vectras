@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 interface Photo {
@@ -6,7 +7,7 @@ interface Photo {
   alt: string;
 }
 
-const defaultPhotos: Photo[] = [
+const defaultPhotoPaths: Photo[] = [
   {src: '/img/photo_1.jpeg', alt: 'Portrait 1'},
   {src: '/img/photo_2.jpeg', alt: 'Portrait 2'},
   {src: '/img/photo_3.jpeg', alt: 'Portrait 3'},
@@ -21,7 +22,9 @@ interface PhotoGalleryProps {
   photos?: Photo[];
 }
 
-export default function PhotoGallery({photos = defaultPhotos}: PhotoGalleryProps): React.ReactElement {
+export default function PhotoGallery({photos: photoProp}: PhotoGalleryProps): React.ReactElement {
+  const rawPhotos = photoProp ?? defaultPhotoPaths;
+  const photos = rawPhotos.map((p) => ({...p, src: useBaseUrl(p.src)}));
   const [activeIndex, setActiveIndex] = useState(0);
   const [lightbox, setLightbox] = useState(false);
 
