@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Central South University (CSU)
 
 **Bachelor of Engineering** in Automation
-*2017 – 2021* | Changsha, China
+*2016 – 2020* | Changsha, China
 
 - Studied control theory, signal processing, embedded systems, and mathematics
 - Coursework: Linear Algebra, Probability & Statistics, Automatic Control Principles, Microcontroller Systems, Digital Signal Processing

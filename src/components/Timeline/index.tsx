@@ -15,7 +15,7 @@ interface TimelineProps {
 
 const defaultItems: TimelineEntry[] = [
   {
-    period: '2017 – 2021',
+    period: '2016 – 2020',
     title: 'Central South University',
     subtitle: 'B.Eng. in Automation',
     description:

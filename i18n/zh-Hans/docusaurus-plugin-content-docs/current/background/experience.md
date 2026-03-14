@@ -8,7 +8,7 @@ import Timeline from '@site/src/components/Timeline';
 
 export const items = [
   {
-    period: '2017 – 2021',
+    period: '2016 – 2020',
     title: '中南大学',
     subtitle: '自动化工学学士',
     description: '学习控制理论、嵌入式系统和信号处理，建立了扎实的数学和工程基础。',
