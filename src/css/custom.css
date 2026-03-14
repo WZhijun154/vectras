@@ -23,6 +23,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-navbar-height: 3.5rem;
+  --ifm-navbar-background-color: transparent;
+  --ifm-navbar-shadow: none;
 
   --landing-bg-start: #fdf6ee;
   --landing-bg-end: #f0e6d8;
@@ -37,6 +39,8 @@
 }
 
 [data-theme='dark'] {
+  --ifm-navbar-background-color: transparent;
+  --ifm-navbar-shadow: none;
   --ifm-color-primary: #c9a96e;
   --ifm-color-primary-dark: #c19c58;
   --ifm-color-primary-darker: #bd954d;
