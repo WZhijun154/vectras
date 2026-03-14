@@ -8,6 +8,9 @@ Feel free to reach out — I'm always happy to connect!
 
 - **GitHub**: [WZhijun154](https://github.com/WZhijun154)
 - **Email**: wangzhijun154@gmail.com
+- **WeChat**: Scan the QR code below
+
+<img src="/img/wechat_qr.jpg" alt="WeChat QR Code" width="300" />
 
 ## Let's Connect
 

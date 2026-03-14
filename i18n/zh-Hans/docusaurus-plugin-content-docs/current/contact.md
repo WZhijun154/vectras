@@ -8,6 +8,9 @@ sidebar_position: 5
 
 - **GitHub**: [WZhijun154](https://github.com/WZhijun154)
 - **邮箱**: wangzhijun154@gmail.com
+- **微信**: 扫描下方二维码添加
+
+<img src="/img/wechat_qr.jpg" alt="微信二维码" width="300" />
 
 ## 联系我
 
