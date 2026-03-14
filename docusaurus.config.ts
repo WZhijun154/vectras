@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Vectras',
-  tagline: 'Self Introduction',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   future: {

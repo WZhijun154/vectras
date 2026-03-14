@@ -325,5 +325,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "homepage.learnMore": {
+    "message": "了解更多"
+  },
+  "homepage.github.desc": {
+    "message": "查看我的项目和贡献。"
+  },
+  "homepage.aboutMe": {
+    "message": "关于我"
+  },
+  "homepage.aboutMe.desc": {
+    "message": "了解我的背景、技能和经验。"
+  },
+  "homepage.contact": {
+    "message": "联系方式"
+  },
+  "homepage.contact.desc": {
+    "message": "与我取得联系。"
+  },
+  "homepage.title": {
+    "message": "首页"
+  },
+  "homepage.description": {
+    "message": "Vectras的个人网站"
   }
 }
