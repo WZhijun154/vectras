@@ -132,14 +132,16 @@
   background-color: #1a1612;
 }
 
-/* Fix: enable scrolling for sidebar menu items */
+/* Fix: enable scrolling for each sidebar panel individually.
+   overflow-y on the __items container breaks the two-panel slide
+   (CSS forces overflow-x:auto when overflow-y!=visible, clipping the transform). */
 .navbar-sidebar__items {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: visible;
 }
 
 .navbar-sidebar__item {
-  overflow-y: visible;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Fix: show locale dropdown expanded in mobile sidebar */
